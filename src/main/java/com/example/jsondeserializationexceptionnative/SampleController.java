@@ -18,8 +18,6 @@ public class SampleController {
 
         SampleResponseObject sampleResponseObject = sampleService.getSampleResponseObject();
 
-        System.out.println("HELLO");
-
         return sampleResponseObject;
     }
 
