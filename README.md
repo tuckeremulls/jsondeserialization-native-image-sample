@@ -5,7 +5,8 @@
   `No default constructor found with root cause`
   
 - Using an API to call itself is obviously not a good practice of design patterns and is only used in this project as a 
-  quick and self-contained example.
+  quick and self-contained example. In the actual project where this exception was encountered, an outbound web client call
+  to an external API was being made.
   
 - Steps to reproduce the issue:
     - `mvn -Pnative spring-boot:build-image`
